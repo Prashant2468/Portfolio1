@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Prashant Patil - Fullstack Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous"
+      /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  </head>
+  <body>
+    <!-- For Cursor Effect -->
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+    <div class="circle"></div>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+      <a href="#" class="logo"
+        ><img src="assest/images/logo.png" class="logoimg"
+      /></a>
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="fa-solid fa-bars-staggered" id="menu-icon"></i>
+        <i class="fa-solid fa-xmark" id="close-icon"></i>
+      </label>
+      <nav class="navbar">
+        <a href="#" style="--i: 0" onclick="closemenu()">Home </a>
+        <a href="#about" style="--i: 1" onclick="closemenu()">About Me</a>
+        <a href="#skill" style="--i: 2" onclick="closemenu()">Skills</a>
+        <a href="#project" style="--i: 3" onclick="closemenu()">Projects</a>
+        <a href="#contact_space" style="--i: 4" onclick="closemenu()"
+          >Contact</a
+        >
+      </nav>
+    </header>
+
+    <!-- Home Section  -->
+    <div class="home" id="home">
+      <!-- particle.js links -->
+      <div id="particles-js"></div>
+      <div class="content">
+        <h2 data-aos="fade-up" data-aos-delay="10" data-aos-duration="1000">
+          Hello,👋
+        </h2>
+        <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          I'm Prashant<span> Patil</span>
+        </h1>
+        <p data-aos="fade-up" data-aos-delay="150" data-aos-duration="1000">
+          I Am into <span class="typing-text">Frontent Development</span>
+        </p>
+
+        <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+          <a href="#about" target="_parent" class="about-btn"
+            >About me<i class="fa-solid fa-circle-arrow-down arrowdown"></i
+          ></a>
+        </div>
+        <div class="social-box">
+          <a
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+            href="https://www.linkedin.com/in/prashant-patil-6a
+          "
+            class="linkdin"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            data-aos="zoom-in"
+            data-aos-delay="600"
+            data-aos-duration="1000"
+            href="https://github.com/Prashant2468 "
+            class="github"
+            target="_
+          blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            data-aos="zoom-in"
+            data-aos-delay="900"
+            data-aos-duration="1000"
+            href="https://www.instagram.com/mr_prashant82/"
+            class="instagram"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            class="twitter"
+            data-aos="zoom-in"
+            data-aos-delay="1200"
+            data-aos-duration="1000"
+            href="https://twitter.com/prashantpatil_6a"
+            target="_
+          blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+      <div
+        class="image"
+        data-aos="fade-left"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
+        <img
+          draggable="false"
+          class="tilt"
+          src="assest/images/img_profile.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <!--About Section -->
+
+    <div class="About" id="about">
+      <div data-aos="zoom-in" data-aos-delay="40" data-aos-duration="1000">
+        <p class="head"><b>About Me</b></p>
+      </div>
+      <div class="box">
+        <img src="assest/images/img_avatar.png" alt="" class="img_avatar" />
+        <p data-aos="zoom-in" data-aos-delay="40" data-aos-duration="1000">
+          Hello, <b style="color: #0062ff">I'm Prashant Patil</b>, a passionate
+          Mobile App Developer with a knack for creating seamless and
+          user-friendly applications. With a solid background in mobile
+          technologies, I specialize in both Android and iOS development. My
+          expertise includes crafting robust, high-performance apps that not
+          only meet client requirements but also provide an exceptional user
+          experience.
+        </p>
+        <div data-aos="zoom-in" data-aos-delay="40" data-aos-duration="1000">
+          <a href="assest/Resume.pdf" class="btn_resume">Resume</a>
+        </div>
+      </div>
+    </div>
+
+    <div id="skill"></div>
+    <!-- Skills Section-->
+    <div class="skills">
+      <div data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+        <p class="txt_skill"><b>Tech Skills</b></p>
+        <div class="tabbox">
+          <div class="tab">
+            <input
+              type="button"
+              value="Frontend"
+              class="tablinks"
+              id="front"
+              onclick="openCity(event, 'Frontend')"
+            />
+            <input
+              type="button"
+              value="Backend"
+              class="tablinks"
+              onclick="openCity(event, 'Backend')"
+            />
+            <input
+              type="button"
+              value="Others"
+              class="tablinks"
+              onclick="openCity(event, 'Others')"
+            />
+          </div>
+          <div id="Frontend" class="tabcontent">
+            <!-- Row 1 -->
+            <div class="row">
+              <div
+                class="my-skill"
+                data-aos="zoom-in-left"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #ffc40015">
+                  <img
+                    src="assest/images/javascript.webp"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>JavaScript</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-right"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #00eaff0e">
+                  <img
+                    src="assest/images/react.webp"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>React Native</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-left"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #fafafa1c">
+                  <img
+                    src="assest/images/nextjs.svg"
+                    alt=""
+                    style="height: 60px; width: 60px"
+                  />
+                </div>
+                <p>NextJS</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-right"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #00eaff0f">
+                  <img
+                    src="assest/images/typescript.webp"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>TypeScript</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-left"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #c34aff1c">
+                  <img
+                    src="assest/images/bootstrap.webp"
+                    alt=""
+                    style="height: 60px; width: 60px"
+                  />
+                </div>
+                <p>Bootstrap</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-right"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #f97d4415">
+                  <img
+                    src="assest/images/html.webp"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>HTML</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-left"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #00aaff0e">
+                  <img
+                    src="assest/images/css3.webp"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>CSS</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-right"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #008cff0f">
+                  <img
+                    src="assest/images/jquery.webp"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>JQuery</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-left"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #ffc40015">
+                  <img
+                    src="assest/images/xml.png"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>XML</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-right"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #00eaff0e">
+                  <img
+                    src="assest/images/jetpack_compose_icon.png"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p style="text-align: center">Android Jetpack</p>
+              </div>
+            </div>
+          </div>
+          <div id="Backend" class="tabcontent">
+            <div class="row">
+              <div
+                class="my-skill"
+                data-aos="zoom-in-left"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #4dc1ff15">
+                  <img
+                    src="assest/images/java.webp"
+                    alt=""
+                    style="height: 60px; width: 60px"
+                  />
+                </div>
+                <p>Java</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-right"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #9fa0a00e">
+                  <img
+                    src="assest/images/php-logo.webp"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>PHP</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-left"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #fafafa1c">
+                  <img
+                    src="assest/images/mysql-logo.webp"
+                    alt=""
+                    style="height: 60px; width: 60px"
+                  />
+                </div>
+                <p>MySQL</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-right"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #ffe2500f">
+                  <img
+                    src="assest/images/firebase.webp"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>Firebase</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-left"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #c34aff1c">
+                  <img
+                    src="assest/images/node-js.webp"
+                    alt=""
+                    style="height: 60px; width: 60px"
+                  />
+                </div>
+                <p>NodeJs</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-right"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #f97d4415">
+                  <img
+                    src="assest/images/mongoDB.webp"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>MongoDB</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-right"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #f97d4415">
+                  <img
+                    src="assest/images/sqlite.webp"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>Sqlite</p>
+              </div>
+            </div>
+          </div>
+          <div id="Others" class="tabcontent">
+            <div class="row">
+              <div
+                class="my-skill"
+                data-aos="zoom-in-left"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #4dc1ff15">
+                  <img
+                    src="assest/images/android-studio--v3.webp"
+                    alt=""
+                    style="height: 60px; width: 60px"
+                  />
+                </div>
+                <p>Android Studio</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-right"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #9fa0a00e">
+                  <img
+                    src="assest/images/github.png"
+                    alt=""
+                    style="height: 50px; width: 50px; color: white"
+                  />
+                </div>
+                <p>GitHub</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-left"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #fafafa1c">
+                  <img
+                    src="assest/images/git.webp"
+                    alt=""
+                    style="height: 60px; width: 60px"
+                  />
+                </div>
+                <p>Git</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-right"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #ffe2500f">
+                  <img
+                    src="assest/images/flutter.png"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>Flutter</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-left"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #c34aff1c">
+                  <img
+                    src="assest/images/postman.png"
+                    alt=""
+                    style="height: 60px; width: 70px"
+                  />
+                </div>
+                <p>Postman</p>
+              </div>
+              <div
+                class="my-skill"
+                data-aos="zoom-in-right"
+                data-aos-delay="250"
+                data-aos-duration="1000"
+              >
+                <div class="img-box" style="background-color: #f97d4415">
+                  <img
+                    src="assest/images/laravel.png"
+                    alt=""
+                    style="height: 50px; width: 50px"
+                  />
+                </div>
+                <p>Laravel</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- circle animation in back -->
+        <div class="area">
+          <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education Section -->
+
+    <div class="education">
+      <div>
+        <p
+          class="txt_edu"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <b>Education</b>
+        </p>
+        <div class="container">
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <h2 class="heading">Uka Tarsadia University</h2>
+            <p class="course">
+              Master of Computer Application | (MCA)
+              <li>
+                <b>Parsuing masters</b> from Shrimad Rajchandra Institute of
+                Management and Computer Application
+              </li>
+              <li>
+                Worked on mobile application development with Android and IOS ,
+                Web application development with PHP and Laravel
+              </li>
+            </p>
+            <p class="year">2024-2025</p>
+            <div class="point">
+              <i class="fa-solid fa-graduation-cap" style="color: #ffffff"></i>
+            </div>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <h2 class="heading">Udhna Citizen College</h2>
+            <p class="course">Bachelor of Computer Application | (BCA)</p>
+            <p class="year">2022-2024</p>
+
+            <div class="point">
+              <i class="fa-solid fa-graduation-cap" style="color: #ffffff"></i>
+            </div>
+          </div>
+          <div
+            class="box"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            <h2 class="heading">P.H.Bachakaniwala vidyalay</h2>
+            <p class="course">HSC 12<sup>th</sup> | Science</p>
+            <p class="year">2021-2022</p>
+
+            <div class="point">
+              <i class="fa-solid fa-graduation-cap" style="color: #ffffff"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  My Projects -->
+
+    <div class="project" id="project">
+      <div>
+        <p
+          class="txt_pro"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-duration="500"
+        >
+          <b>Projects</b>
+        </p>
+        <div class="proContainer">
+          <div
+            class="proBox"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="600"
+          >
+            <div class="pro_img">
+              <div class="swiper">
+                <div class="swipeIcon">
+                  <a href="#">
+                    <i class="ifont fa-solid fa-up-right-from-square"></i>
+                  </a>
+                </div>
+                <div class="swipeIcon">
+                  <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+                <div class="swipeIcon">
+                  <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+              <img src="/assest/web1.webp" alt="1" />
+            </div>
+            <div class="data">
+              <h1>Farm Management</h1>
+              <p>
+                Web Tech : Laravel, php, HTML, CSS, JavaScript, Bootstrap, Sweet
+                Alert,
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="proBox"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="600"
+          >
+            <div class="pro_img">
+              <div class="swiper">
+                <div class="swipeIcon">
+                  <a href="#">
+                    <i class="ifont fa-solid fa-up-right-from-square"></i>
+                  </a>
+                </div>
+                <div class="swipeIcon">
+                  <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+                <div class="swipeIcon">
+                  <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+              <img src="/assest/web1.webp" alt="" />
+            </div>
+            <div class="data">
+              <h1>Farm Management</h1>
+              <p>
+                Web Tech : Laravel, php, HTML, CSS, JavaScript, Bootstrap, Sweet
+                Alert,
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="proBox"
+            data-aos="zoom-in"
+            data-aos-delay="50"
+            data-aos-duration="600"
+          >
+            <div class="pro_img">
+              <div class="swiper">
+                <div class="swipeIcon">
+                  <a href="#">
+                    <i class="ifont fa-solid fa-up-right-from-square"></i>
+                  </a>
+                </div>
+                <div class="swipeIcon">
+                  <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </div>
+                <div class="swipeIcon">
+                  <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+              <img src="/assest/web1.webp" alt="" />
+            </div>
+            <div class="data">
+              <h1>Farm Management</h1>
+              <p>
+                Web Tech : Laravel, php, HTML, CSS, JavaScript, Bootstrap, Sweet
+                Alert,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Me -->
+
+    <div class="ContactContainer" id="contact_space">
+      <p
+        class="txt_contact"
+        data-aos="zoom-in"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+      >
+        <b>Contact Me</b>
+      </p>
+      <div class="Contact">
+        <div class="conImage">
+          <script
+            src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+            type="module"
+          ></script>
+          <dotlottie-player
+            src="https://lottie.host/48277ca4-0f7c-4e9a-a69f-9967c793352a/3OcMq8nwgQ.json"
+            background="transparent"
+            speed="0.5"
+            style="width: 85%; height: 80%"
+            loop
+            autoplay
+          ></dotlottie-player>
+        </div>
+        <div class="conForm">
+          <h1>Get in touch</h1>
+          <p>
+            My inbox is always open! 💌 Whether you've got a burning question or
+            want to drop a friendly "hello", I'm all ears!👂 Let's chat! 🎉
+          </p>
+          <form
+            onsubmit="submitData(event)"
+            action="https://formsubmit.co/el/dolaxe"
+            method="POST"
+          >
+            <input
+              type="text"
+              name="name"
+              class="txt_name"
+              placeholder="Full Name *"
+            />
+            <input
+              type="email"
+              name="email"
+              class="txt_name"
+              placeholder="Email *"
+              id="email"
+            />
+            <textarea
+              class="txt_message"
+              name="message"
+              placeholder="Message *"
+            ></textarea>
+            <input
+              type="submit"
+              name="button"
+              id="button"
+              class="btn_submmit"
+              value="say Hello ✌️"
+              onmouseover="checkData()"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="Portfolio">
+      <div class="portbox">
+        <div class="portData">
+          <h1>
+            Liked this
+            <b>portfolio <b>?</b></b>
+          </h1>
+          <p>
+            Fork this template on GitHub start building your own portfolio
+            website.
+          </p>
+
+          <button>
+            <a style="text-decoration: none;" href="https://github.com/Prashant2468/Portfolio1">
+              Visit Docs<i
+                style="margin-left: 10px"
+                class="ifont fa-solid fa-up-right-from-square"
+              ></i
+            ></a>
+          </button>
+        </div>
+        <div class="portImg">
+          <img src="/assest/portfolioImg.webp" alt="ok" />
+        </div>
+      </div>
+
+      <div class="fotter">
+        <p>Made by ❤️ Prashant Patil</p>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+
+  <!-- typed.js cdn -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+    integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <!-- jquery cdn -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="demo.js"></script>
+</html>
